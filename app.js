@@ -1,4 +1,4 @@
-//入口文件编码
+﻿//入口文件编码
 var express = require('express')  //加载express模块
 var path = require('path')
 var mongoose = require('mongoose')
@@ -235,4 +235,3 @@ app.delete('/admin/list',function(req,res){
 		})
 	}
 })
-
